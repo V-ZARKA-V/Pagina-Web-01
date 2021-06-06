@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.header{
+  height: 80px;
+  background: #000;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background: -webkit-linear-gradient(#212c39, #121e3d 50%, #000);
+    background: -o-linear-gradient(#212c39, #121e3d 50%, #000);
+    background: -moz-linear-gradient(#212c39, #121e3d 50%, #000);
+    background: linear-gradient(#212c39, #121e3d 50%, #000);
+
+    background: -webkit-linear-gradient(to right,#000 16.66666%);
+    background: -o-linear-gradient(to right,#000 00016.66666%);
+    background: -moz-linear-gradient(to right,#000 16.66666%);
+    background: linear-gradient(to right,#000 16.66666%);
+    
+}
+
+.background_button {
+  height: 400px;
+  width: 85%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background: -webkit-linear-gradient(#111d3c,#000);
+    background: -o-linear-gradient(#111d3c,#000);
+    background: -moz-linear-gradient(#111d3c,#000);
+    background: linear-gradient(#111d3c,#000);
+
+    background: -webkit-linear-gradient(to right,#000 16.66666%);
+    background: -o-linear-gradient(to right,#000 00016.66666%);
+    background: -moz-linear-gradient(to right,#000 16.66666%);
+    background: linear-gradient(to right,#000 16.66666%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description, .link {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+.description {
+  color: white;
+	font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #000;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #1db954;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.link a {
+  color: #000;
+  font-size: 25px; 
+}
+
+.tutorial{
+  background: white;
+  height: 1200px;
+  width: 85%;
+  margin: auto;
+}
+
+.footer{
+  height: 100px;
+  background: #000;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
